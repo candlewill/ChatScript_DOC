@@ -21,6 +21,9 @@ ChatScript（下文简称CS）是一个使用C语言开发的，基于脚本的�
 <br>这个文档主要讲述了，以JSON格式表示的事实(Facts)，如何用ChatScript操控。
 <br>更详细的一个文档，13页，见：[详细JSON](./ChatScript-Json.pdf)
 
+8. [Chatbot Creation Options](./Chatbot Creation Options.pdf)
+<br>这是一篇论文，比较了AIML和ChatScript脚本语言
+
 ## Version
 
 整理此文档时，ChatScript所处的release版本是：

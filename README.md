@@ -15,7 +15,7 @@ ChatScript（下文简称CS）是一个使用C语言开发的，基于脚本的�
 5. ChatScript高级用户手册：[手册](./ChatScript Advanced User Manual.pdf)
 
 6. [ChatScript Engine and Private Code Manual](./ChatScript Engine and Private Code Manual.pdf)
- How the internals of the engine work and how to extend it with private code.
+<br>How the internals of the engine work and how to extend it with private code.
 
 ## Version
 

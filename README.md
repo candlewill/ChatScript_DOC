@@ -22,7 +22,23 @@ ChatScript（下文简称CS）是一个使用C语言开发的，基于脚本的�
 <br>更详细的一个文档，13页，见：[详细JSON](./ChatScript-Json.pdf)
 
 8. [Chatbot Creation Options](./Chatbot Creation Options.pdf)
-<br>这是一篇论文，比较了AIML和ChatScript脚本语言
+<br>这是一篇论文，比较了AIML和ChatScript脚本语言各自的优缺点，总结而言：
+
+
+|语言 | AIML| ChatScript|
+| :------- | :---- | :--- |
+| 优点| 简单| 增强模式匹配能力  |
+||容易学|功能强、弹性灵活、高效|
+||容易实现|文档优秀|
+||存在一些预先编好的set|证实商业应用可行|
+|||无需外在服务，可离线化|
+||||
+| 缺点|模式匹配能力弱| 难学 |
+||耗时多，不好维护|无现成服务提供方，需自己集成其他组件|
+||一个健壮bot需大量categories|网页端集成难|
+||有限实施备选方案 ||
+
+AIML优点
 
 ## Version
 

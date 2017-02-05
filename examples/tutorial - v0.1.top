@@ -1,0 +1,58 @@
+topic: ~introductions keep repeat []
+
+t: GAMBIT () [你][您][you]好，欢迎使用[小乐][乐乐]语音[助手][管家]！你[随便][任意]告诉我你的行程	# 开场白(gambit)
+	$issue=null
+
+u: (你好)你也好，你想去哪里
+
+u: slot_target(我想去 _*) 好的，你想去 _0, 请问什么时候出发呢	# 对中文支持的不好
+	$target = '_0
+	$issue=null
+
+u: slot_time(_* 出发)
+	好的，您 _0 出发，出发地点是哪里呢？
+	$time='_0
+	$issue=null
+	
+u: slot_from(出发地点是 _* )
+	您打算从 _0 出发
+	$from='_0
+	$issue=null
+
+u: ([-* null])
+	不好意思，我没理解你在说什么
+	
+	
+u: ($issue=target _*)	 # 条件句，=号左右不能有空格
+	^reuse(slot_target)
+
+u: ($issue=time _*)
+	^reuse(slot_time)
+
+u: ($issue=from _*)
+	^reuse(slot_from)
+
+u: (!$target)
+	还没告诉我你要去哪里呢？ 你想去哪里
+	$issue=target
+	
+u: (!$time)
+	还没告诉我时间呢。请问何时？
+	$issue=time
+
+u: (!$from)
+	没有告诉我你在哪里，你的出发地点是？
+	$issue=from
+	
+u: ([查看] $from $time $target)
+	您的机票信息如下：您打算从 $from 出发，时间是 $time, 目的地是 $target, 需要修改吗？
+	
+u: ([你叫什么名字 你的姓名是什么]) 我是机器人，我叫小乐
+
+u: WHERE_LIVE([你住在哪 你在哪里]) 我在乐视大厦
+
+u: (你在哪) ^reuse(WHERE_LIVE), ^reuse(GAMBIT)
+
+u: ([再见 拜拜]) [再见][不跟人家聊天了吗]
+
+u: ([what where 怎样]) 人家不知道.

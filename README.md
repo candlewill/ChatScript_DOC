@@ -41,9 +41,13 @@ ChatScript（下文简称CS）是一个使用C语言开发的，基于脚本的�
 
 ## Version
 
-整理此文档时，ChatScript所处的release版本是：
+最初整理此文档时，ChatScript所处的release版本是：
 
 [CS 7.111](https://github.com/bwilcox-1234/ChatScript/archive/7.111.tar.gz)
+
+自2017-02-05之后，整理与更新的文档对应的ChatScript版本是：
+
+[CS 7.12](https://github.com/bwilcox-1234/ChatScript/archive/7.12.tar.gz)
 
 ## 联系
 

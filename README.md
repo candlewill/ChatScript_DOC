@@ -54,6 +54,9 @@ ChatScript（下文简称CS）是一个使用C语言开发的，基于脚本的�
 <br>本文不是讲一些非常细的细节，而是之讲常用知识，从设计角度出发，让你可以快速上手开发bots。主要内容可概括为：
  
  开发bot的流程是：1. 明确bot目标，能做什么；2. 面用什么用户；3. bot属性画像；4. 由proto script到chat script code的编写；
+ 
+12. [Bot Harry - basic bot](./Bot Harry - basic bot.pdf)
+<br>本文2页内容，讲述如何对harry做一些简单修改，以便实现自己的第一个bot
 
 ## Version
 

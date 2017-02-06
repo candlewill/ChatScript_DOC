@@ -50,6 +50,11 @@ ChatScript（下文简称CS）是一个使用C语言开发的，基于脚本的�
 <br> 高级特性：[ChatScript 对话引擎高级特性](./ChatScript对话引擎（高级版）.pdf)
 <br>*注意：*上述两个中文文档，我们保留翻译版权，转载使用引用等，需注明出处，谢谢
 
+11. [Writing a Chatbot For UC Berkeley's Center for: New Media ChatScript Hackathon](./Writing a Chatbot For UC Berkeley's Center for New Media ChatScript Hackathon.pdf)
+<br>本文不是讲一些非常细的细节，而是之讲常用知识，从设计角度出发，让你可以快速上手开发bots。主要内容可概括为：
+
+开发bot的流程是：1. 明确bot目标，能做什么；2. 面用什么用户；3. bot属性画像；4. 由proto script到chat script code的编写；
+
 ## Version
 
 最初整理此文档时，ChatScript所处的release版本是：

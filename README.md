@@ -44,6 +44,11 @@ ChatScript（下文简称CS）是一个使用C语言开发的，基于脚本的�
  | :------- | :---- | :--- |
  |[tutorial - v0.1.top](./examples/tutorial - v0.1.top)|订票bot，使用%issue|
  |[tutorial.top](./examples/tutorial.top)|订票bot，使用^respond|
+ 
+10. 我们根据ChatScript提供的英文文档，整合形成了更为简洁通顺的中文文档，一方面进行知识梳理，同时便于形成体系：
+<br> 入门介绍：[ChatScript 对话引擎](./ChatScript对话引擎（基础版）_v1.0.pdf)
+<br> 高级特性：[ChatScript 对话引擎高级特性](./ChatScript对话引擎（高级版）.pdf)
+<br>*注意：*上述两个中文文档，我们保留翻译版权，转载使用引用等，需注明出处，谢谢
 
 ## Version
 

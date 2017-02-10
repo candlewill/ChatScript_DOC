@@ -58,6 +58,12 @@ ChatScript（下文简称CS）是一个使用C语言开发的，基于脚本的�
 12. [Bot Harry - basic bot](./Bot Harry - basic bot.pdf)
 <br>本文2页内容，讲述如何对harry做一些简单修改，以便实现自己的第一个bot
 
+13. [Winning the Loebner's](./Winning.pdf)
+<br>满满的技巧，大力推荐
+
+14. [MAKING IT REAL: LOEBNERWINNING CHATBOT DESIGN](./ARBOR.pdf)
+<br>一篇2013年的论文，简单描述了ChatScript
+
 ## Version
 
 最初整理此文档时，ChatScript所处的release版本是：

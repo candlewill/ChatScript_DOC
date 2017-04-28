@@ -4,7 +4,7 @@ ChatScript（下文简称CS）是一个使用C语言开发的，基于脚本的�
 
 ## 说明
 
-1. 一个讲解CS原理的PPT，深入浅出，大力推荐：[Slides](./ChatScript Training.pdf)
+1. 一个讲解CS原理的PPT，深入浅出，大力推荐：[Slides](<./ChatScript Training.pdf>)
 
 2. 用手手册，非常详细长达63页: [手册](./ChatScript User Manual.pdf)
 
@@ -24,25 +24,25 @@ ChatScript（下文简称CS）是一个使用C语言开发的，基于脚本的�
 8. [Chatbot Creation Options](./Chatbot Creation Options.pdf)
 <br>这是一篇论文，比较了AIML和ChatScript脚本语言各自的优缺点，总结而言：
  
- |语言 | AIML| ChatScript|
- | :------- | :---- | :--- |
- | 优点| 简单| 增强模式匹配能力  |
- ||容易学|功能强、弹性灵活、高效|
- ||容易实现|文档优秀|
- ||存在一些预先编好的set|证实商业应用可行|
- |||无需外在服务，可离线化|
- ||||
- | 缺点|模式匹配能力弱| 难学 |
- ||耗时多，不好维护|无现成服务提供方，需自己集成其他组件|
- ||一个健壮bot需大量categories|网页端集成难|
- ||有限实施备选方案 ||
+	 |语言 | AIML| ChatScript|
+	 | :------- | :---- | :--- |
+	 | 优点| 简单| 增强模式匹配能力  |
+	 ||容易学|功能强、弹性灵活、高效|
+	 ||容易实现|文档优秀|
+	 ||存在一些预先编好的set|证实商业应用可行|
+	 |||无需外在服务，可离线化|
+	 ||||
+	 | 缺点|模式匹配能力弱| 难学 |
+	 ||耗时多，不好维护|无现成服务提供方，需自己集成其他组件|
+	 ||一个健壮bot需大量categories|网页端集成难|
+	 ||有限实施备选方案 ||
 
 9. 一些ChatScript .top脚本示例：
  
- |文件|说明|
- | :------- | :---- |
- |["tutorial - v0.1.top"]("./examples/tutorial - v0.1.top")|订票bot，使用%issue|
- |[tutorial.top](./examples/tutorial.top)|订票bot，使用^respond|
+	 |文件|说明|
+	 | :------- | :---- |
+	 |["tutorial - v0.1.top"]("./examples/tutorial - v0.1.top")|订票bot，使用%issue|
+	 |[tutorial.top](./examples/tutorial.top)|订票bot，使用^respond|
  
 10. 我们根据ChatScript提供的英文文档，整合形成了更为简洁通顺的中文文档，一方面进行知识梳理，同时便于形成体系：
 <br> 入门介绍：[ChatScript 对话引擎](./ChatScript对话引擎（基础版）_v1.0.pdf)

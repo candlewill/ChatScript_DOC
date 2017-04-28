@@ -4,7 +4,7 @@ ChatScript（下文简称CS）是一个使用C语言开发的，基于脚本的�
 
 ## 说明
 
-1. 一个讲解CS原理的PPT，深入浅出，大力推荐：[Slides](./ChatScript20%Training.pdf)
+1. 一个讲解CS原理的PPT，深入浅出，大力推荐：[Slides](./ChatScript%20Training.pdf)
 
 2. 用手手册，非常详细长达63页: [手册](./ChatScript User Manual.pdf)
 

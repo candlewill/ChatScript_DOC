@@ -41,7 +41,7 @@ ChatScript（下文简称CS）是一个使用C语言开发的，基于脚本的�
 9. 一些ChatScript .top脚本示例：
 
  |文件|说明|
- | :------- | :---- | :--- |
+ | :------- | :---- |
  |[tutorial - v0.1.top](./examples/tutorial - v0.1.top)|订票bot，使用%issue|
  |[tutorial.top](./examples/tutorial.top)|订票bot，使用^respond|
  
@@ -63,6 +63,9 @@ ChatScript（下文简称CS）是一个使用C语言开发的，基于脚本的�
 
 14. [MAKING IT REAL: LOEBNERWINNING CHATBOT DESIGN](./ARBOR.pdf)
 <br>一篇2013年的论文，简单描述了ChatScript
+
+15. [基于ChatScript框架的多轮对话开发](./基于ChatScript框架的多轮对话开发.pdf)
+<br>中文多轮开发
 
 ## Version
 

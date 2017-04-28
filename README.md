@@ -23,8 +23,6 @@ ChatScript（下文简称CS）是一个使用C语言开发的，基于脚本的�
 
 8. [Chatbot Creation Options](./Chatbot Creation Options.pdf)
 <br>这是一篇论文，比较了AIML和ChatScript脚本语言各自的优缺点，总结而言：
-
-
  |语言 | AIML| ChatScript|
  | :------- | :---- | :--- |
  | 优点| 简单| 增强模式匹配能力  |
@@ -39,10 +37,9 @@ ChatScript（下文简称CS）是一个使用C语言开发的，基于脚本的�
  ||有限实施备选方案 ||
 
 9. 一些ChatScript .top脚本示例：
-
  |文件|说明|
  | :------- | :---- |
- |[tutorial - v0.1.top](./examples/tutorial - v0.1.top)|订票bot，使用%issue|
+ |["tutorial - v0.1.top"]("./examples/tutorial - v0.1.top")|订票bot，使用%issue|
  |[tutorial.top](./examples/tutorial.top)|订票bot，使用^respond|
  
 10. 我们根据ChatScript提供的英文文档，整合形成了更为简洁通顺的中文文档，一方面进行知识梳理，同时便于形成体系：
@@ -52,8 +49,7 @@ ChatScript（下文简称CS）是一个使用C语言开发的，基于脚本的�
 
 11. [Writing a Chatbot For UC Berkeley's Center for: New Media ChatScript Hackathon](./Writing a Chatbot For UC Berkeley's Center for New Media ChatScript Hackathon.pdf)
 <br>本文不是讲一些非常细的细节，而是之讲常用知识，从设计角度出发，让你可以快速上手开发bots。主要内容可概括为：
- 
- 开发bot的流程是：1. 明确bot目标，能做什么；2. 面用什么用户；3. bot属性画像；4. 由proto script到chat script code的编写；
+<br>开发bot的流程是：1. 明确bot目标，能做什么；2. 面用什么用户；3. bot属性画像；4. 由proto script到chat script code的编写；
  
 12. [Bot Harry - basic bot](./Bot Harry - basic bot.pdf)
 <br>本文2页内容，讲述如何对harry做一些简单修改，以便实现自己的第一个bot
